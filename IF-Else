@@ -1,0 +1,42 @@
+/*
+ * Hello.cpp
+ *
+ *  Created on: 20 oktober 2015
+ *      Author: Reza Aji Saputra | 1517051146
+ */
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+int angka;
+cout<<"---------------------------"<<endl;
+cout<<"Daftar Minuman Jus Cafe Kolong"<<endl;
+cout<<"1.Jus Jeruk"<<endl;
+cout<<"2.Jus Mangga"<<endl;
+cout<<"3.Jus melon"<<endl;
+cout<<"4.Jus Apel"<<endl;
+cout<<"5.Jus Markisa"<<endl;
+cout<<"---------------------------"<<endl;
+cout<<"Masukkan Jus yang ingin anda beli " <<endl;
+cin>>angka;
+if (angka==1)
+cout<<"Anda Memesan Jus Jeruk,Pesanan Anda Akan Keluar";
+else
+if (angka==2)
+cout<<"Anda Memesan Jus Mangga,Pesanan Anda Akan Keluar";
+else
+if (angka==3)
+cout<<"Anda Memesan Jus Apel,Pesanan Anda Akan Keluar";
+else
+if (angka==4)
+cout<<"Anda Memesan Jus Jeruk, Pesanan Anda Akan Keluar";
+else
+if (angka==5)
+cout<<"Anda Memesan Jus Markisa, Pesanan Anda Akan Keluar ";
+else
+cout<<"Anda Memasukkan Angka Yang Salah ";
+
+return 0;
+}
