@@ -1,0 +1,35 @@
+/*
+ * Hello.cpp
+ *
+ *  Created on: 20 oktober 2015
+ *      Author: Rm Sulaiman Sani | 1517051180
+ */
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+{
+int angka;
+cout<<"-------------------------------\n";
+cout<<"Daftar Minuman Jus Cafe Kolong  :\n";
+cout<<"1. Jus Jeruk\n";
+cout<<"2. Jus Mangga\n";
+cout<<"3. Jus Melon\n";
+cout<<"4. Jus Apel\n";
+cout<<"5. Jus markisa\n";
+cout<<"-------------------------------\n";
+cout<<" Masukkan jus yang ingin ada beli : "; cin>>angka;
+switch(angka)
+{
+case 1:cout<<"Anda memesan jus jeruk, Pesanan akan Keluar";break;
+case 2:cout<<"Anda memesan jus mangga, Pesanan Akan Keluar";break;
+case 3:cout<<"Anda memesan jus melon, Pesanan Akan Keluar";break;
+case 4:cout<<"Anda memesan jus apel, Pesanan Akan Keluar";break;
+case 5:cout<<"Anda memesan jus markisa, Pesanan Akan Keluar";break;
+default :cout<<" Anda memasukkan Angka Yang salah";break;}
+return 0;
+}
+}
+
